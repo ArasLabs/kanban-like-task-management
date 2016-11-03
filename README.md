@@ -64,7 +64,7 @@ For more information on contributing to this project, another Aras Labs project,
 
 Original Aras community project written by Yoann Maingon at Aras Corp.
 
-Documented and published by Eli Donahue at Aras Labs. @YoannArasLab
+Documented and published by Yoann Maingon at Aras Labs. @YoannArasLab
 
 ## License
 
