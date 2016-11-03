@@ -1,0 +1,100 @@
+<!-- 
+Copyright (c) 2016 - mydatalinx
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-->
+<html>
+
+<head>
+	<link rel="stylesheet" href="external/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="external/jqueryUI/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="boardBody" style='width:100%;height: 100%;'>
+	<div id='boards' class="row">
+		<div id='boardsTitle'>
+			<h1 style="margin-left: 20px;">
+				<p class='boardsName pull-left'>Boards </p>
+				<div class="btn btn-success" id="addBoard"><span class="glyphicon glyphicon-plus"></span> Add</div>
+				<div class="btn btn-danger disabled" id="removeBoard"><span class="glyphicon glyphicon-remove"></span> Remove</div>
+				<div class="btn btn-info disabled" id="configBoard"><span class="glyphicon glyphicon-setting"></span> Open Board Configuration</div>
+				<div class="btn btn-default " id="refreshBoards"><span class="glyphicon glyphicon-refresh"></span> Refresh</div>
+				<input class="form-control pull-right" style="width:200px;" id="boardFilter" placeholder="search..." />
+			</h1>
+		</div>
+		<div id='boardsContent'> </div>
+	</div>
+	<div id='board' class="row" style="display:none;">
+		<div id='boardTitle'>
+			<h1 style="margin-left: 20px;">
+				<p class='boardName pull-left'>Cards Board </p>
+				<div class="btn btn-info" id="backToBoards"><span class="glyphicon glyphicon-th"></span> Back</div>
+				<div class="btn-group" role="group" aria-label="...">
+					<div class="btn btn-success" id="addCard"><span class="glyphicon glyphicon-plus"></span> Card</div>
+					<div class="btn btn-success" id="addStage"><span class="glyphicon glyphicon-plus"></span> Stage</div>
+				</div>
+				<div class="btn-group" role="group" aria-label="...">
+					<div class="btn btn-danger" id="removeCard"><span class="glyphicon glyphicon-remove"></span> Card</div>
+					<div class="btn btn-danger" id="removeStage"><span class="glyphicon glyphicon-remove"></span> Stage</div>
+				</div>
+				<div class="btn-group" data-toggle="buttons">
+					<label class="btn btn-default  active  switchColorVisibility">
+						<input type="checkbox"  autocomplete="off" checked> 
+						<span class=' glyphicon glyphicon-stop grey colorizerSwitch' color='grey' ></span>
+					</label>
+					<label class="btn btn-default  active  switchColorVisibility">
+						<input type="checkbox"  autocomplete="off" checked> 
+						<span class=' glyphicon glyphicon-stop green colorizerSwitch ' color='green' ></span>
+					</label>
+					<label class="btn btn-default   active  switchColorVisibility">
+						<input type="checkbox"   autocomplete="off" checked> 
+						<span class=' glyphicon glyphicon-stop yellow colorizerSwitch ' color='yellow' ></span>
+					</label>
+					<label class="btn btn-default   active  switchColorVisibility">
+						<input type="checkbox"   autocomplete="off" checked> 
+						<span class=' glyphicon glyphicon-stop coral colorizerSwitch' color='coral' > </span>
+					</label>
+				</div>
+
+				<div class="btn btn-default" id="refreshBoard"><span class="glyphicon glyphicon-refresh"></span> Refresh</div>
+
+				<div class="btn btn-info pull-right" id="changeWallpaper"><span class="glyphicon glyphicon-picture"></span> WallPaper</div>
+				<div class="pull-right " style="display:none;" id="wallpaperDiv">
+					<select class="form-control pull-right" style="width:200px; margin-left:20px;" id="wallpaperSelect"> </select>
+					<div class="btn btn-danger pull-right" id="cancelChangeWallpaper"><span class="glyphicon glyphicon-remove-circle"></span> Close</div>
+				</div>
+				<input class="form-control pull-right" style="width:200px;" id="cardFilter" placeholder="search..." />
+
+			</h1>
+		</div>
+		<div id='boardContent'>
+			<div id='classified' class="classified">
+			</div>
+		</div>
+	</div>
+</body>
+<script src='external/jquery-2.1.1.min.js'></script>
+<script src="external/jqueryUI/jquery-ui.min.js"></script>
+<script src="external/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="external/moment.min.js"></script>
+
+</html>

@@ -1,0 +1,215 @@
+﻿<AML>
+ <Item type="ItemType" id="98220472F4C1465B9FA7C71E72FB8535" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>YMA_BOARDS</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Board</label>
+  <label_plural xml:lang="en">Boards</label_plural>
+  <large_icon>../Images/Color.svg</large_icon>
+  <open_icon>../Images/Color.svg</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs off</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>YMA_Boards</name>
+  <Relationships>
+   <Item type="Property" id="D58D2634C5534BC69D0F2A0750D6179F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">description</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <track_history>0</track_history>
+    <name>boarddescription</name>
+   </Item>
+   <Item type="Property" id="06E0D43DEC124D25ADB8AC6EA029C069" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">name</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+    <name>boardname</name>
+   </Item>
+   <Item type="Property" id="BF4B9E660ECC4CBBBB069D69CB32F9F7" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>created_by_id</name>
+      <source_id>98220472F4C1465B9FA7C71E72FB8535</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>picture</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>User</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">creatorPicture</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <track_history>0</track_history>
+    <name>creatorpicture</name>
+   </Item>
+   <Item type="Property" id="66972F10A7844F0A983B5E3AFBE42181" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">statuses</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <track_history>0</track_history>
+    <name>statuses</name>
+   </Item>
+   <Item type="Property" id="17D92C4573284B9A82E1E4C3898EEDA3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="YMA_BoardImage" type="ItemType" name="YMA_BoardImage">7983BF8F53744603994061C7D0274692</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">wallpaper</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <track_history>0</track_history>
+    <name>wallpaper</name>
+   </Item>
+   <Item type="Property" id="E306812384B84E85A64938C09E44E3AA" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>wallpaper</name>
+      <source_id>98220472F4C1465B9FA7C71E72FB8535</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>image</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>YMA_BoardImage</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">wallpaperUrl</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <track_history>0</track_history>
+    <name>wallpaperurl</name>
+   </Item>
+   <Item type="View" id="530D8EC18B4C414F9A7A542CEA64AAF2" action="add">
+    <client>js</client>
+    <related_id keyed_name="YMA_Boards" type="Form">4801EE8F09E044FF8DDDB80F4C198762</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="TOC Access" id="4D793FAD0D5F40D4BE680BE643DA32E1" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <category>Project Innovator</category>
+   </Item>
+   <Item type="TOC View" id="99F6F3062C174024B6288CBFA2749C9C" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <start_page>kanban/boards.html</start_page>
+   </Item>
+   <Item type="TOC View" id="9F1BE57CF28547C9BD58C58F1F3D9FF3" action="add">
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+   </Item>
+   <Item type="Can Add" id="5858D6956D6543698084AE3B663AB0E7" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="30B206754125489B9C098D25FF114FCD" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="YMA_BoardDefault" type="Permission">F9A4113478E0454788C1FA7DAA0FB18B</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

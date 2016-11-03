@@ -1,0 +1,199 @@
+﻿<AML>
+ <Item type="Form" id="4334A982B3324A25AE4E3CC1738A5208" action="add">
+  <category_form>0</category_form>
+  <height>240</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>720</width>
+  <name>YMA_Cards</name>
+  <Relationships>
+   <Item type="Body" id="E1020B234C374764978D988D7C9B9C00" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Cards" type="Form">4334A982B3324A25AE4E3CC1738A5208</source_id>
+    <Relationships>
+     <Item type="Field" id="45040C5D4E8C47379FAF2457409C5AB7" action="add">
+      <border_width>0</border_width>
+      <display_length>400</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Short Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="carddescription" type="Property">3BD85240C7DB4EBC8606C68894A92F06</propertytype_id>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="E1020B234C374764978D988D7C9B9C00" type="Body">E1020B234C374764978D988D7C9B9C00</source_id>
+      <tab_index>3328</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>400</textarea_cols>
+      <textarea_rows>30</textarea_rows>
+      <x>160</x>
+      <y>50</y>
+      <name>carddescription</name>
+     </Item>
+     <Item type="Field" id="FB5E6E9A9CE74559B05A446CC786A9CC" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Long Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="cardlongdescription" type="Property">951677FF728D443BA9653273E81A6821</propertytype_id>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="E1020B234C374764978D988D7C9B9C00" type="Body">E1020B234C374764978D988D7C9B9C00</source_id>
+      <tab_index>4096</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>400</textarea_cols>
+      <textarea_rows>95</textarea_rows>
+      <x>160</x>
+      <y>90</y>
+      <name>cardlongdescription</name>
+     </Item>
+     <Item type="Field" id="4888013CCCCC4412886354527BF2A6A4" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Title</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="cardtitle" type="Property">069A5922D0C340F8B7CD83B904C9325E</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="E1020B234C374764978D988D7C9B9C00" type="Body">E1020B234C374764978D988D7C9B9C00</source_id>
+      <tab_index>3200</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>50</y>
+      <name>cardtitle</name>
+     </Item>
+     <Item type="Field" id="CE1F72258B1542F399CC9B73F04F20CC" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">dueDate</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="duedate" type="Property">12C60D0F98C9471588E79C9987602523</propertytype_id>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="E1020B234C374764978D988D7C9B9C00" type="Body">E1020B234C374764978D988D7C9B9C00</source_id>
+      <tab_index>3840</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>8</x>
+      <y>172</y>
+      <name>duedate</name>
+     </Item>
+     <Item type="Field" id="36C7FE4E722B4AFD89EEADF8DDE5E0F0" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.addEventListener('load', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="E1020B234C374764978D988D7C9B9C00" type="Body">E1020B234C374764978D988D7C9B9C00</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      <name>item_info</name>
+     </Item>
+     <Item type="Field" id="4AAA8298CD9E41A9B9C05D262ABB8378" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">manager</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="manager" type="Property">6F9EFACE6FDB43A4879A99D69D5D8020</propertytype_id>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="E1020B234C374764978D988D7C9B9C00" type="Body">E1020B234C374764978D988D7C9B9C00</source_id>
+      <tab_index>3584</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>9</x>
+      <y>133</y>
+      <name>manager</name>
+     </Item>
+     <Item type="Field" id="6A6B71F681724F28B9B6CC2E9B0A1A37" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">project</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="project" type="Property">E64FD4CBFE8640139FE94FA1B902F2A8</propertytype_id>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="E1020B234C374764978D988D7C9B9C00" type="Body">E1020B234C374764978D988D7C9B9C00</source_id>
+      <tab_index>3968</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>430</x>
+      <y>10</y>
+      <name>project</name>
+     </Item>
+     <Item type="Field" id="FDF5384F1880427482AE2F3C6020B15B" action="add">
+      <border_width>0</border_width>
+      <display_length>64</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">status</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="status" type="Property">A2FFDEDB91094355B6972AF364A1B138</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="E1020B234C374764978D988D7C9B9C00" type="Body">E1020B234C374764978D988D7C9B9C00</source_id>
+      <tab_index>3072</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>10</x>
+      <y>90</y>
+      <name>status</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,23 @@
+﻿<AML>
+ <Item type="Permission" id="F9A4113478E0454788C1FA7DAA0FB18B" action="add">
+  <is_private>0</is_private>
+  <name>YMA_BoardDefault</name>
+  <Relationships>
+   <Item type="Access" id="44333895CAF047458BA9F86F262CD46D" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Creator" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Creator</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_BoardDefault" type="Permission">F9A4113478E0454788C1FA7DAA0FB18B</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,39 @@
+﻿<AML>
+ <Item type="Form" id="8D375086F8CF46179FCCA9D03CF8D4CA" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>YMA_cardTask</name>
+  <Relationships>
+   <Item type="Body" id="17B01E8B75C745D1A367063C963F738A" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_cardTask" type="Form">8D375086F8CF46179FCCA9D03CF8D4CA</source_id>
+    <Relationships>
+     <Item type="Field" id="761B1EFBB5844D65956745806B810DE0" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.addEventListener('load', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="17B01E8B75C745D1A367063C963F738A" type="Body">17B01E8B75C745D1A367063C963F738A</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      <name>item_info</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

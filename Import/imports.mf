@@ -1,0 +1,3 @@
+<imports>
+  <package name="aras.labs.kanbanliketaskmanagement" path="kanban\Import" />
+</imports>

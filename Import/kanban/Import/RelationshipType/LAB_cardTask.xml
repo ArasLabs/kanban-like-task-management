@@ -1,0 +1,90 @@
+﻿<AML>
+ <Item type="RelationshipType" id="4E21313A727F4CAF85A1DDCAD45008D9" action="add" dependencyLevel="0">
+  <auto_search>1</auto_search>
+  <behavior>float</behavior>
+  <copy_permissions>0</copy_permissions>
+  <create_related>0</create_related>
+  <hide_in_all>0</hide_in_all>
+  <inc_rel_key_name>1</inc_rel_key_name>
+  <inc_related_key_name>1</inc_related_key_name>
+  <is_list_type>0</is_list_type>
+  <label xml:lang="en">Checklist</label>
+  <new_show_related>0</new_show_related>
+  <related_notnull>0</related_notnull>
+  <related_option>2</related_option>
+  <relationship_id keyed_name="YMA_cardTask" type="ItemType" name="YMA_cardTask">
+   <Item type="ItemType" id="9952EF766A404982BF1498D8136D24A1" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>0</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>YMA_CARDTASK</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>1</is_relationship>
+    <is_versionable>0</is_versionable>
+    <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <structure_view>tabs off</structure_view>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>1</use_src_access>
+    <name>YMA_cardTask</name>
+    <Relationships>
+     <Item type="Property" id="2ED439B0CA6C4B78BC484EF8EB504188" action="add">
+      <column_alignment>left</column_alignment>
+      <column_width>600</column_width>
+      <data_type>string</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label xml:lang="en">description</label>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3584</sort_order>
+      <source_id keyed_name="YMA_cardTask" type="ItemType" name="YMA_cardTask">9952EF766A404982BF1498D8136D24A1</source_id>
+      <stored_length>1024</stored_length>
+      <track_history>0</track_history>
+      <name>description</name>
+     </Item>
+     <Item type="Property" id="B41386EA4C814DF08A7C06D8A384EC75" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>40</column_width>
+      <data_type>boolean</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label xml:lang="en">done</label>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>200</sort_order>
+      <source_id keyed_name="YMA_cardTask" type="ItemType" name="YMA_cardTask">9952EF766A404982BF1498D8136D24A1</source_id>
+      <track_history>0</track_history>
+      <name>done</name>
+     </Item>
+     <Item type="View" id="5713065DA7784BF1B7B4F6BF6670CE40" action="add">
+      <client>js</client>
+      <related_id keyed_name="YMA_cardTask" type="Form">8D375086F8CF46179FCCA9D03CF8D4CA</related_id>
+      <role keyed_name="World" type="Identity">
+       <Item type="Identity" action="get" select="id">
+        <name>World</name>
+       </Item>
+      </role>
+      <show_ssvc>0</show_ssvc>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="YMA_cardTask" type="ItemType" name="YMA_cardTask">9952EF766A404982BF1498D8136D24A1</source_id>
+      <type>default</type>
+     </Item>
+    </Relationships>
+   </Item>
+  </relationship_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+  <name>YMA_cardTask</name>
+ </Item>
+</AML>

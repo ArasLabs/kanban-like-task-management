@@ -1,0 +1,99 @@
+﻿<AML>
+ <Item type="Form" id="4801EE8F09E044FF8DDDB80F4C198762" action="add">
+  <category_form>0</category_form>
+  <height>150</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>600</width>
+  <name>YMA_Boards</name>
+  <Relationships>
+   <Item type="Body" id="34B62DF8CC38485A8DDE1DCAD037E39E" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Boards" type="Form">4801EE8F09E044FF8DDDB80F4C198762</source_id>
+    <Relationships>
+     <Item type="Field" id="852A5CB6E4144840B5FACA919F57A0CB" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.addEventListener('load', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="34B62DF8CC38485A8DDE1DCAD037E39E" type="Body">34B62DF8CC38485A8DDE1DCAD037E39E</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      <name>item_info</name>
+     </Item>
+     <Item type="Field" id="E0CB2388A2F443D08FA7AEF73F142A87" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Manager</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="34B62DF8CC38485A8DDE1DCAD037E39E" type="Body">34B62DF8CC38485A8DDE1DCAD037E39E</source_id>
+      <tab_index>896</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>184</x>
+      <y>87</y>
+      <name>managed_by_id</name>
+     </Item>
+     <Item type="Field" id="54EF0F74817F49E285A926B5464C6CDD" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Owner</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="34B62DF8CC38485A8DDE1DCAD037E39E" type="Body">34B62DF8CC38485A8DDE1DCAD037E39E</source_id>
+      <tab_index>768</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>185</x>
+      <y>33</y>
+      <name>owned_by_id</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="E0CB2388A2F443D08FA7AEF73F142A87" action="edit">
+  <!-- Please note: this AML depends on the "YMA_Boards" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>managed_by_id</name>
+    <source_id type="ItemType" keyed_name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="54EF0F74817F49E285A926B5464C6CDD" action="edit">
+  <!-- Please note: this AML depends on the "YMA_Boards" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>owned_by_id</name>
+    <source_id type="ItemType" keyed_name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

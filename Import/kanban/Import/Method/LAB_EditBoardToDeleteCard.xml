@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="Method" id="6AC51E9EAFE74B84880D3C99FD79F64F" action="add">
+  <comments>Delete Parent relationship to Board when deleting a card</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[Innovator inn = this.getInnovator();
+Item BoardCard = inn.newItem("YMA_BoardCards","delete");
+BoardCard.setAttribute("where","[YMA_BoardCards].related_id='"+this.getID()+"'");
+BoardCard = BoardCard.apply();
+return this;]]></method_code>
+  <method_type>C#</method_type>
+  <name>YMA_EditBoardToDeleteCard</name>
+ </Item>
+</AML>

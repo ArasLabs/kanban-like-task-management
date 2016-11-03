@@ -1,0 +1,42 @@
+﻿<AML>
+ <Item type="RelationshipType" id="6F63E27A889849E9901D73B24CF26932" action="add" dependencyLevel="0">
+  <auto_search>1</auto_search>
+  <behavior>float</behavior>
+  <copy_permissions>0</copy_permissions>
+  <create_related>0</create_related>
+  <hide_in_all>0</hide_in_all>
+  <inc_rel_key_name>1</inc_rel_key_name>
+  <inc_related_key_name>1</inc_related_key_name>
+  <is_list_type>0</is_list_type>
+  <label xml:lang="en">Files</label>
+  <new_show_related>0</new_show_related>
+  <related_id keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</related_id>
+  <related_notnull>0</related_notnull>
+  <related_option>2</related_option>
+  <relationship_id keyed_name="YMA_CardFiles" type="ItemType" name="YMA_CardFiles">
+   <Item type="ItemType" id="2833A7D6231B44FD9215759A091B68F3" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>0</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>YMA_CARDFILES</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>1</is_relationship>
+    <is_versionable>0</is_versionable>
+    <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <structure_view>tabs off</structure_view>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>1</use_src_access>
+    <name>YMA_CardFiles</name>
+    <Relationships />
+   </Item>
+  </relationship_id>
+  <sort_order>384</sort_order>
+  <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+  <name>YMA_CardFiles</name>
+ </Item>
+ <Item type="View" action="delete" where="source_id='2833A7D6231B44FD9215759A091B68F3'" />
+ <Item type="Form" action="delete" where="name='YMA_CardFiles'" />
+</AML>

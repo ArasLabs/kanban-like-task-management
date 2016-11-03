@@ -1,0 +1,251 @@
+﻿<AML>
+ <Item type="ItemType" id="9C1D852916B4488CAB7FA8AF226C3D9A" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>YMA_CARDS</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Card</label>
+  <label_plural xml:lang="en">Cards</label_plural>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs on</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>YMA_Cards</name>
+  <Relationships>
+   <Item type="Property" id="A337DCD56D4B497F952555930D972F92" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">cardColor</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>cardcolor</name>
+   </Item>
+   <Item type="Property" id="3BD85240C7DB4EBC8606C68894A92F06" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Description</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <track_history>0</track_history>
+    <name>carddescription</name>
+   </Item>
+   <Item type="Property" id="951677FF728D443BA9653273E81A6821" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Long Description</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <track_history>0</track_history>
+    <name>cardlongdescription</name>
+   </Item>
+   <Item type="Property" id="069A5922D0C340F8B7CD83B904C9325E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Title</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+    <name>cardtitle</name>
+   </Item>
+   <Item type="Property" id="12C60D0F98C9471588E79C9987602523" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dueDate</label>
+    <pattern>short_date_time</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <track_history>0</track_history>
+    <name>duedate</name>
+   </Item>
+   <Item type="Property" id="6F9EFACE6FDB43A4879A99D69D5D8020" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">manager</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <track_history>0</track_history>
+    <name>manager</name>
+   </Item>
+   <Item type="Property" id="CAA3E0CF930549BAA82B5D9F6A39A0F9" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>manager</name>
+      <source_id>9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>picture</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>User</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">managerPicture</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <track_history>0</track_history>
+    <name>managerpicture</name>
+   </Item>
+   <Item type="Property" id="E64FD4CBFE8640139FE94FA1B902F2A8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Project" type="ItemType" name="Project">02184EDAA80D499CB6EC94B159966DBE</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">project</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <track_history>0</track_history>
+    <name>project</name>
+   </Item>
+   <Item type="Property" id="A2FFDEDB91094355B6972AF364A1B138" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">status</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+    <name>status</name>
+   </Item>
+   <Item type="View" id="035DB17538714D9DA5998227E783D247" action="add">
+    <client>js</client>
+    <related_id keyed_name="YMA_Cards" type="Form">4334A982B3324A25AE4E3CC1738A5208</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="Server Event" id="7AD312F090C04D06B5BC9F6AD44E8426" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="YMA_EditBoardToDeleteCard" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>YMA_EditBoardToDeleteCard</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeDelete</server_event>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+   </Item>
+   <Item type="TOC Access" id="CDB1FB263D5B42C78C7C3BD500A27735" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+    <category>Administration</category>
+   </Item>
+   <Item type="Can Add" id="C0F162E5AB724054900B4038E9CCCCF3" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="9A4A1AA8369445DFA31FEBB9C831F040" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Default Access" type="Permission">9122CD065CF04141B8EFE263FC80BEA4</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
