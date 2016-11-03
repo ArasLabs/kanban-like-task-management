@@ -34,10 +34,10 @@ The Kanban like has two interfaces. The Board listing and a the board detail whe
 7. Select Type = **Merge** and Mode = **Thorough Mode**.
 8. Click **Import** in the top left corner.
 9. Close the Aras Package Import tool.
-10. Copy `..\kanban-like-task-management\Innovator**` in your install folder
+10. Copy `..\kanban-like-task-management\Innovator` in your install folder
   * _Note: by default c:/Program Files/Aras/Innovator/
 
-You are now ready to login to Aras and try out Automatic Workflow Branching.
+You are now ready to login to Aras and try out kanban like task management
 
 ## Usage
 
