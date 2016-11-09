@@ -5,7 +5,7 @@
   <enforce_discovery>1</enforce_discovery>
   <hide_where_used>0</hide_where_used>
   <implementation_type>table</implementation_type>
-  <instance_data>YMA_BOARDIMAGE</instance_data>
+  <instance_data>LAB_BOARDIMAGE</instance_data>
   <is_dependent>0</is_dependent>
   <is_relationship>0</is_relationship>
   <is_versionable>0</is_versionable>
@@ -16,7 +16,7 @@
   <structure_view>tabs off</structure_view>
   <unlock_on_logout>0</unlock_on_logout>
   <use_src_access>0</use_src_access>
-  <name>YMA_BoardImage</name>
+  <name>LAB_BoardImage</name>
   <Relationships>
    <Item type="Property" id="0133681A81164F6F87568F016112ED5D" action="add">
     <column_alignment>left</column_alignment>
@@ -31,7 +31,7 @@
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>3072</sort_order>
-    <source_id keyed_name="YMA_BoardImage" type="ItemType" name="YMA_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
+    <source_id keyed_name="LAB_BoardImage" type="ItemType" name="LAB_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
     <track_history>0</track_history>
     <name>image</name>
    </Item>
@@ -48,14 +48,14 @@
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>3200</sort_order>
-    <source_id keyed_name="YMA_BoardImage" type="ItemType" name="YMA_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
+    <source_id keyed_name="LAB_BoardImage" type="ItemType" name="LAB_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
     <stored_length>64</stored_length>
     <track_history>0</track_history>
     <name>name</name>
    </Item>
    <Item type="View" id="8162AF03005B44959B47FA4C39EEABA7" action="add">
     <client>js</client>
-    <related_id keyed_name="YMA_BoardImage" type="Form">63A8B15310E24F7B83C60AE455E39BAB</related_id>
+    <related_id keyed_name="LAB_BoardImage" type="Form">63A8B15310E24F7B83C60AE455E39BAB</related_id>
     <role keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
@@ -63,7 +63,7 @@
     </role>
     <show_ssvc>0</show_ssvc>
     <sort_order>128</sort_order>
-    <source_id keyed_name="YMA_BoardImage" type="ItemType" name="YMA_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
+    <source_id keyed_name="LAB_BoardImage" type="ItemType" name="LAB_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
     <type>default</type>
    </Item>
    <Item type="TOC Access" id="9ACC41BD9BDA47D890F752DA3247CC78" action="add">
@@ -73,7 +73,7 @@
      </Item>
     </related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="YMA_BoardImage" type="ItemType" name="YMA_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
+    <source_id keyed_name="LAB_BoardImage" type="ItemType" name="LAB_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
     <category>Administration</category>
    </Item>
    <Item type="Can Add" id="C11FD52532794C46AC70AE2277C02F4A" action="add">
@@ -84,13 +84,13 @@
      </Item>
     </related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="YMA_BoardImage" type="ItemType" name="YMA_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
+    <source_id keyed_name="LAB_BoardImage" type="ItemType" name="LAB_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
    </Item>
    <Item type="Allowed Permission" id="7BA762AFAB4B462981BDC5EF620C5E06" action="add">
     <is_default>1</is_default>
     <related_id keyed_name="Default Access" type="Permission">9122CD065CF04141B8EFE263FC80BEA4</related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="YMA_BoardImage" type="ItemType" name="YMA_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
+    <source_id keyed_name="LAB_BoardImage" type="ItemType" name="LAB_BoardImage">7983BF8F53744603994061C7D0274692</source_id>
    </Item>
   </Relationships>
  </Item>

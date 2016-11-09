@@ -4,12 +4,12 @@
   <height>234</height>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>699</width>
-  <name>YMA_BoardImage</name>
+  <name>LAB_BoardImage</name>
   <Relationships>
    <Item type="Body" id="C6DFF5F8E47E4444BD68DC9722CF915D" action="add">
     <bg_color>#FFFFFF</bg_color>
     <sort_order>128</sort_order>
-    <source_id keyed_name="YMA_BoardImage" type="Form">63A8B15310E24F7B83C60AE455E39BAB</source_id>
+    <source_id keyed_name="LAB_BoardImage" type="Form">63A8B15310E24F7B83C60AE455E39BAB</source_id>
     <Relationships>
      <Item type="Field" id="A4834EDDED4C44F89E6C432BAC0820D3" action="add">
       <border_width>0</border_width>

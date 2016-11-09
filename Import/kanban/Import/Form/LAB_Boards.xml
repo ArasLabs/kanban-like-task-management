@@ -4,12 +4,12 @@
   <height>150</height>
   <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
   <width>600</width>
-  <name>YMA_Boards</name>
+  <name>LAB_Boards</name>
   <Relationships>
    <Item type="Body" id="34B62DF8CC38485A8DDE1DCAD037E39E" action="add">
     <bg_color>#FFFFFF</bg_color>
     <sort_order>128</sort_order>
-    <source_id keyed_name="YMA_Boards" type="Form">4801EE8F09E044FF8DDDB80F4C198762</source_id>
+    <source_id keyed_name="LAB_Boards" type="Form">4801EE8F09E044FF8DDDB80F4C198762</source_id>
     <Relationships>
      <Item type="Field" id="852A5CB6E4144840B5FACA919F57A0CB" action="add">
       <display_length_unit>px</display_length_unit>
@@ -79,20 +79,20 @@
   </Relationships>
  </Item>
  <Item type="Field" id="E0CB2388A2F443D08FA7AEF73F142A87" action="edit">
-  <!-- Please note: this AML depends on the "YMA_Boards" ItemType. Please make sure it exists before running this. -->
+  <!-- Please note: this AML depends on the "LAB_Boards" ItemType. Please make sure it exists before running this. -->
   <propertytype_id>
    <Item type="Property" action="get" select="id">
     <name>managed_by_id</name>
-    <source_id type="ItemType" keyed_name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <source_id type="ItemType" keyed_name="LAB_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
    </Item>
   </propertytype_id>
  </Item>
  <Item type="Field" id="54EF0F74817F49E285A926B5464C6CDD" action="edit">
-  <!-- Please note: this AML depends on the "YMA_Boards" ItemType. Please make sure it exists before running this. -->
+  <!-- Please note: this AML depends on the "LAB_Boards" ItemType. Please make sure it exists before running this. -->
   <propertytype_id>
    <Item type="Property" action="get" select="id">
     <name>owned_by_id</name>
-    <source_id type="ItemType" keyed_name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+    <source_id type="ItemType" keyed_name="LAB_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
    </Item>
   </propertytype_id>
  </Item>

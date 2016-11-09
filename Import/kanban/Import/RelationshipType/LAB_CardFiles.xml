@@ -13,14 +13,14 @@
   <related_id keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</related_id>
   <related_notnull>0</related_notnull>
   <related_option>2</related_option>
-  <relationship_id keyed_name="YMA_CardFiles" type="ItemType" name="YMA_CardFiles">
+  <relationship_id keyed_name="LAB_CardFiles" type="ItemType" name="LAB_CardFiles">
    <Item type="ItemType" id="2833A7D6231B44FD9215759A091B68F3" action="add">
     <allow_private_permission>1</allow_private_permission>
     <auto_search>0</auto_search>
     <enforce_discovery>0</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
-    <instance_data>YMA_CARDFILES</instance_data>
+    <instance_data>LAB_CARDFILES</instance_data>
     <is_dependent>0</is_dependent>
     <is_relationship>1</is_relationship>
     <is_versionable>0</is_versionable>
@@ -29,14 +29,14 @@
     <structure_view>tabs off</structure_view>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>
-    <name>YMA_CardFiles</name>
+    <name>LAB_CardFiles</name>
     <Relationships />
    </Item>
   </relationship_id>
   <sort_order>384</sort_order>
-  <source_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
-  <name>YMA_CardFiles</name>
+  <source_id keyed_name="LAB_Cards" type="ItemType" name="LAB_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</source_id>
+  <name>LAB_CardFiles</name>
  </Item>
  <Item type="View" action="delete" where="source_id='2833A7D6231B44FD9215759A091B68F3'" />
- <Item type="Form" action="delete" where="name='YMA_CardFiles'" />
+ <Item type="Form" action="delete" where="name='LAB_CardFiles'" />
 </AML>

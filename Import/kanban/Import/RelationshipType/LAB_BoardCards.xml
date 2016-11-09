@@ -10,17 +10,17 @@
   <is_list_type>0</is_list_type>
   <label xml:lang="en">Cards</label>
   <new_show_related>0</new_show_related>
-  <related_id keyed_name="YMA_Cards" type="ItemType" name="YMA_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</related_id>
+  <related_id keyed_name="LAB_Cards" type="ItemType" name="LAB_Cards">9C1D852916B4488CAB7FA8AF226C3D9A</related_id>
   <related_notnull>0</related_notnull>
   <related_option>2</related_option>
-  <relationship_id keyed_name="YMA_BoardCards" type="ItemType" name="YMA_BoardCards">
+  <relationship_id keyed_name="LAB_BoardCards" type="ItemType" name="LAB_BoardCards">
    <Item type="ItemType" id="BC9D45B2699C49C7BE0CB632BB02ED25" action="add">
     <allow_private_permission>1</allow_private_permission>
     <auto_search>0</auto_search>
     <enforce_discovery>0</enforce_discovery>
     <hide_where_used>0</hide_where_used>
     <implementation_type>table</implementation_type>
-    <instance_data>YMA_BOARDCARDS</instance_data>
+    <instance_data>LAB_BOARDCARDS</instance_data>
     <is_dependent>0</is_dependent>
     <is_relationship>1</is_relationship>
     <is_versionable>0</is_versionable>
@@ -29,7 +29,7 @@
     <structure_view>tabs off</structure_view>
     <unlock_on_logout>0</unlock_on_logout>
     <use_src_access>1</use_src_access>
-    <name>YMA_BoardCards</name>
+    <name>LAB_BoardCards</name>
     <Relationships>
      <Item type="Property" id="A88D957BEBAE4D9B84D8A7D09231B7BE" action="add">
       <column_alignment>left</column_alignment>
@@ -46,7 +46,7 @@
       <range_inclusive>0</range_inclusive>
       <readonly>0</readonly>
       <sort_order>3584</sort_order>
-      <source_id keyed_name="YMA_BoardCards" type="ItemType" name="YMA_BoardCards">BC9D45B2699C49C7BE0CB632BB02ED25</source_id>
+      <source_id keyed_name="LAB_BoardCards" type="ItemType" name="LAB_BoardCards">BC9D45B2699C49C7BE0CB632BB02ED25</source_id>
       <track_history>0</track_history>
       <name>project</name>
      </Item>
@@ -54,9 +54,9 @@
    </Item>
   </relationship_id>
   <sort_order>128</sort_order>
-  <source_id keyed_name="YMA_Boards" type="ItemType" name="YMA_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
-  <name>YMA_BoardCards</name>
+  <source_id keyed_name="LAB_Boards" type="ItemType" name="LAB_Boards">98220472F4C1465B9FA7C71E72FB8535</source_id>
+  <name>LAB_BoardCards</name>
  </Item>
  <Item type="View" action="delete" where="source_id='BC9D45B2699C49C7BE0CB632BB02ED25'" />
- <Item type="Form" action="delete" where="name='YMA_BoardCards'" />
+ <Item type="Form" action="delete" where="name='LAB_BoardCards'" />
 </AML>
