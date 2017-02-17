@@ -47,8 +47,8 @@ You are now ready to login to Aras and try out kanban like task management
 5. Double click on the create board, it opens it.
 6. Add stages and Cards
 7. Cards can be opened by double click and they can be drag'n drop from one stage to another
-![Customized Part Form](./Screenshots/boardsView.jpg)
-![Customized Part Form](./screenshots/cardsSample2.jpg)
+![Board listing view](./screenshots/boardsView.jpg)
+![Cards View within a board](./screenshots/cardsSample2.jpg)
 
 ## Contributing
 
