@@ -397,7 +397,9 @@ function enableBoardSelection() {
 
 function loadSingleBoard(boardId, reload) {
 
+	console.time("loadSingleBoard");
 	// board query
+	console.time("Aras Cards Query");
 	var qryBoard = top.aras.newIOMItem('LAB_Boards', 'get');
 	qryBoard.setID(boardId);
 	var qryCards = top.aras.newIOMItem('LAB_Cards', 'get');
@@ -406,12 +408,15 @@ function loadSingleBoard(boardId, reload) {
 	qryBoardCards.setRelatedItem(qryCards);
 	qryBoard.addRelationship(qryBoardCards);
 	var results = qryBoard.apply();
+	console.timeEnd("Aras Cards Query");
 	$("#unclassifiedContent").html("");
 
 	// use Board Config
 	selectedBoard = boardId;
 
 	//set wallpaper
+	
+	console.time("set wallpaper");
 	if (!(reload)) {
 		if (results.getPropertyItem("wallpaper") !== null) {
 			var vaultref = results.getProperty("wallpaperurl");
@@ -423,8 +428,10 @@ function loadSingleBoard(boardId, reload) {
 			$("#boardBody").css("background-image", "url(default.jpg)");
 		}
 	}
+	console.timeEnd("set wallpaper");
 
 
+	console.time("add stages");
 	var stages = [];
 	boardStages = results.getProperty("statuses", "");
 	var boardTitle = results.getProperty("boardname", "");
@@ -440,12 +447,15 @@ function loadSingleBoard(boardId, reload) {
 	}
 	$("#boardContent").width((stages.length + 1) * 320);
 
+	console.timeEnd("add stages");
 
 
 	// use Board Content
 	var resultsCards = results.getItemsByXPath("//Item[@type='LAB_Cards']");
 	var count = resultsCards.getItemCount();
 
+	
+	console.time("add cards");
 	var vaultRefTable = {};
 	for (var i = 0; i < count; ++i) {
 		//get specific item
@@ -499,12 +509,15 @@ function loadSingleBoard(boardId, reload) {
 			$("div.stage[stageName='" + itemStatus + "']").find(".stageBody").append(cardContent);
 		}
 	}
+	
+	console.timeEnd("add cards");
 
 	$("#cardFilter").html("");
 	$(".panel-footer").tooltip({
 		selector: "div[rel=tooltip]"
 	});
 
+	
 	enableStageTitleChange();
 	enableCardClassedDomChange(".cardTitleText", "cardId", '.card', "LAB_Cards", "cardtitle");
 	enableCardsDragNDrop();
@@ -559,6 +572,8 @@ function loadSingleBoard(boardId, reload) {
 			that.closest(".panel").find(".panel-body").fadeOut();
 		}
 	});
+	
+	console.timeEnd("loadSingleBoard");
 }
 
 
