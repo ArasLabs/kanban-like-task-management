@@ -1,7 +1,7 @@
 # Kanban-like-task-management
 Adds a user interface to manage tasks and sort them by Stage, Account, Risk,...
 #### How it works
-The Kanban like has two interfaces. The Board listing and a the board detail when you enter a board by double clicking on it.
+The Kanban like has two interfaces. The Board listing and the Board details (when you enter a board by double clicking on it).
 
 ## Project Details
 
@@ -36,7 +36,7 @@ The Kanban like has two interfaces. The Board listing and a the board detail whe
 10. Copy `..\kanban-like-task-management\Innovator` in your install folder
   * _Note: by default c:/Program Files/Aras/Innovator/
 
-You are now ready to login to Aras and try out kanban like task management
+You are now ready to login to Aras and try out kanban-like task management
 
 ## Usage
 
@@ -44,9 +44,9 @@ You are now ready to login to Aras and try out kanban like task management
 2. Navigate to **Project Innovator/Boards** in the table of contents (TOC).
 3. Click the **add board** button
 4. Edit the board name
-5. Double click on the create board, it opens it.
+5. Double click on the created board to open it.
 6. Add stages and Cards
-7. Cards can be opened by double click and they can be drag'n drop from one stage to another
+7. Cards can be opened by double clicking and they can be drag and dropped from one stage to another.
 ![Board listing view](./screenshots/boardsView.jpg)
 ![Cards View within a board](./screenshots/cardsSample2.jpg)
 
