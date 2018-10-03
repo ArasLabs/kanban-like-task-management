@@ -18,8 +18,8 @@ The Kanban-like-task-management project has two interfaces - the Board listing, 
 
 ### Pre-requisites
 
-1. Aras Innovator installed (version 11.0 SPx preferred)
-2. Aras Package Import tool
+1. Aras Innovator installed (version 11.0 SPx preferred).
+2. Aras Package Import tool.
 
 ### Install Steps
 
@@ -37,16 +37,16 @@ The Kanban-like-task-management project has two interfaces - the Board listing, 
 10. Copy `..\kanban-like-task-management\Innovator` in your install folder
     * _Note: by default c:/Program Files/Aras/Innovator/
 
-You are now ready to login to Aras and try out kanban-like task management
+You are now ready to login to Aras and try out Kanban-like task management.
 
 ## Usage
 
 1. Log in to Aras as admin.
 2. Navigate to **Project Innovator/Boards** in the table of contents (TOC).
-3. Click the **add board** button
-4. Edit the board name
+3. Click the **add board** button.
+4. Edit the board name.
 5. Double click on the created board to open it.
-6. Add stages and Cards
+6. Add stages and Cards.
 7. Cards can be opened by double clicking and they can be drag and dropped from one stage to another.
 
 ![Board listing view](./screenshots/boardsView.jpg)
@@ -58,7 +58,7 @@ You are now ready to login to Aras and try out kanban-like task management
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request
+5. Submit a pull request.
 
 For more information on contributing to this project, another Aras Labs project, or any Aras Community project, shoot us an email at araslabs@aras.com.
 
@@ -74,4 +74,4 @@ Contributors:
 
 ## License
 
-Aras Labs projects are published to Github under the MIT license. See the [LICENSE file](./LICENSE.md) for license rights and limitations.
+Aras Labs projects are published to GitHub under the MIT license. See the [LICENSE file](./LICENSE.md) for license rights and limitations.
