@@ -1,5 +1,9 @@
 # Kanban-like-task-management
 Adds a user interface to manage tasks and sort them by Stage, Account, Risk,...
+
+#### What is Kanban?
+Kanban is a method for managing the creation of products with an emphasis on continual delivery while not overburdening the development team.Kanban is a process designed to help teams work together more effectively.The Kanban method suggests that a scientific approach is used to implement continuous, incremental and evolutionary changes.
+
 #### How it works
 The Kanban-like-task-management project has two interfaces - the Board listing, and the Board details (when you enter a board by double clicking on it).
 
