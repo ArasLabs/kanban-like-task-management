@@ -18,8 +18,8 @@ The Kanban-like-task-management project has two interfaces - the Board listing, 
 
 ### Pre-requisites
 
-1. Aras Innovator installed (version 11.0 SPx preferred).
-2. Aras Package Import tool.
+1. Aras Innovator installed (version 11.0 SPx preferred)
+2. Aras Package Import tool
 
 ### Install Steps
 
