@@ -1,7 +1,7 @@
 # Kanban-like-task-management
 Adds a user interface to manage tasks and sort them by Stage, Account, Risk,...
 #### How it works
-The Kanban-like-task-management project has two interfaces - the Board listing, and the Board details (when you enter a board by double clicking on it).
+The Kanban-like-task-management project has two interfaces - the Board listing, and the Board details (when you enter a board by double-clicking on it).
 
 ## Project Details
 
@@ -47,7 +47,7 @@ You are now ready to login to Aras and try out kanban-like task management
 4. Edit the board name
 5. Double click on the created board to open it.
 6. Add stages and Cards
-7. Cards can be opened by double clicking and they can be drag and dropped from one stage to another.
+7. Cards can be opened by double-clicking and they can be drag and dropped from one stage to another.
 
 ![Board listing view](./screenshots/boardsView.jpg)
 ![Cards View within a board](./screenshots/cardsSample2.jpg)
