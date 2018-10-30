@@ -23,7 +23,7 @@ The Kanban-like-task-management project has two interfaces - the Board listing, 
 
 ### Install Steps
 
-1. Backup your database and store the BAK file in a safe place.
+1. Back up your database and store the BAK file in a safe place.
 2. Open up the Aras Package Import tool.
 3. Enter your login credentials and click **Login**.
     * _Note: You must log in as root for the package import to succeed!_
