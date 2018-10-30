@@ -1,7 +1,7 @@
 # Kanban-like-task-management
-Adds a user interface to manage tasks and sort them by Stage, Account, Risk,...
+Adds a user interface to manage tasks and sort them by Stage, Account, Risk ...
 #### How it works
-The Kanban-like-task-management project has two interfaces - the Board listing, and the Board details (when you enter a board by double clicking on it).
+The Kanban-like-task-management project has two interfaces - the Board listing, and the Board details (when you enter a board by double-clicking on it).
 
 ## Project Details
 
@@ -25,29 +25,29 @@ The Kanban-like-task-management project has two interfaces - the Board listing, 
 
 1. Backup your database and store the BAK file in a safe place.
 2. Open up the Aras Package Import tool.
-3. Enter your login credentials and click **Login**
-    * _Note: You must login as root for the package import to succeed!_
+3. Enter your login credentials and click **Login**.
+    * _Note: You must log in as root for the package import to succeed!_
 4. Enter the package name in the TargetRelease field.
     * Optional: Enter a description in the Description field.
 5. Enter the path to your local `..\kanban-like-task-management\Import\imports.mf` file in the Manifest File field.
 6. Select **aras.labs.kanbanliketaskmanagement** in the Available for Import field.
 7. Select Type = **Merge** and Mode = **Thorough Mode**.
-8. Click **Import** in the top left corner.
+8. Click **Import** in the top-left corner.
 9. Close the Aras Package Import tool.
-10. Copy `..\kanban-like-task-management\Innovator` in your install folder
-    * _Note: by default c:/Program Files/Aras/Innovator/
+10. Copy `..\kanban-like-task-management\Innovator` in your install folder.
+    * _Note: By default C:/Program Files/Aras/Innovator/
 
-You are now ready to login to Aras and try out kanban-like task management
+You are now ready to log in to Aras and try out Kanban-like task management.
 
 ## Usage
 
 1. Log in to Aras as admin.
 2. Navigate to **Project Innovator/Boards** in the table of contents (TOC).
-3. Click the **add board** button
-4. Edit the board name
-5. Double click on the created board to open it.
-6. Add stages and Cards
-7. Cards can be opened by double clicking and they can be drag and dropped from one stage to another.
+3. Click the **add board** button.
+4. Edit the board name.
+5. Double-click on the created board to open it.
+6. Add stages and cards.
+7. Cards can be opened by double-clicking and they can be drag and dropped from one stage to another.
 
 ![Board listing view](./screenshots/boardsView.jpg)
 ![Cards View within a board](./screenshots/cardsSample2.jpg)
