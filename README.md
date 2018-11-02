@@ -34,8 +34,8 @@ The Kanban-like-task-management project has two interfaces - the Board listing, 
 7. Select Type = **Merge** and Mode = **Thorough Mode**.
 8. Click **Import** in the top-left corner.
 9. Close the Aras Package Import tool.
-10. Copy `..\kanban-like-task-management\Innovator` in your install folder.
-    * _Note: By default C:/Program Files/Aras/Innovator/
+10. Copy `..\kanban-like-task-management\Innovator` in your install folder
+    * Note: By default C:/Program Files/Aras/Innovator/
 
 You are now ready to log in to Aras and try out Kanban-like task management.
 
