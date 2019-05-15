@@ -3,13 +3,19 @@ Adds a user interface to manage tasks and sort them by Stage, Account, Risk ...
 #### How it works
 The Kanban-like-task-management project has two interfaces - the Board listing, and the Board details (when you enter a board by double-clicking on it).
 
-## Project Details
+## History
 
-**Built Using:** Aras 11.0 SP7
+Release | Notes
+--------|--------
+[v1.0.1](https://github.com/ArasLabs/kanban-like-task-management/releases/tag/v1.0.1) | Tested 11.0 SP12, SP15. Tested on Edge, IE, Firefox 60 ESR, Chrome.
+[v1.0.0](https://github.com/ArasLabs/kanban-like-task-management/releases/tag/v1.0.0) | First release. Tested on Internet Explorer 11, Firefox 38 ESR, Chrome.
 
-**Browsers Tested:** Internet Explorer 11, Firefox 38 ESR, Chrome
+#### Supported Aras Versions
 
-> Though built and tested using Aras 11.0 SP7, this project should function in older releases of Aras 11.0 and Aras 10.0.
+Project | Aras
+--------|------
+[v1.0.1](https://github.com/ArasLabs/kanban-like-task-management/releases/tag/v1.0.1) | 10.0 SPx, 11.0 SP7+, 11.0 SP12+, 11.0 SP15
+[v1.0.0](https://github.com/ArasLabs/kanban-like-task-management/releases/tag/v1.0.0) | 10.0 SPx, 11.0 SP7; Old Community Board Migration
 
 ## Installation
 
