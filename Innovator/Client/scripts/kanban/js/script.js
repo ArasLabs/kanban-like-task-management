@@ -236,10 +236,10 @@ function loadBoards() {
 		// get boardimage
 		var vaultref = item.getProperty("creatorpicture","undefined");
 		var fileUrl = "nomanager.png";
-		/*if ((vaultref !== "undefined") && (vaultRefTable[vaultref] == undefined)) {
+		if ((vaultref !== "undefined") && (vaultRefTable[vaultref] == undefined)) {
 			fileUrl = inn.getFileUrl(vaultref.split("?fileId=")[1], 1);
 			vaultRefTable[vaultref] = fileUrl;
-		}*/
+		}
 
 		boardsContentString += "<div class='col-md-3 board' boardId='" + item.getID() + "'><div class='panel panel-default'> <div class='panel-heading boardHeader'>    <h3 class='panel-title boardTitle' contentEditable='true'>" + item.getProperty('boardname', 'no name') + "</h3>  </div>  <div class='panel-body boardDescription' contentEditable='true'>" + item.getProperty('boarddescription', 'no description') + " </div>";
 		boardsContentString += " <div class='panel-footer '><div title='<h5>" + item.getPropertyAttribute("created_by_id", "keyed_name") + "</h5><img class=\"managerPicture\" width=\"96px\" src=\"" + vaultRefTable[vaultref] + " \" />' data-placement='top' data-html='true' rel='tooltip' class='userInitiales'>" + nameInitiliser(item.getPropertyAttribute("created_by_id", "keyed_name")) + "</div> <img src='" + vaultRefTable[vaultref] + "' alt='no manager' class='img-circle userInitiales' ></div>";
