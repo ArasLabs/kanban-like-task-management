@@ -1,25 +1,25 @@
-div.stage{
+div.stage {
     width: 300px;
     margin-right: 20px;
 }
 
-.droppable{
+.droppable {
     min-height: 80px;
 }
 
-#unclassified{
+#unclassified {
     width: 300px;
     margin-right: 20px;
     margin-left: 20px;
 }
 
-body{
+body {
     padding: 15px;
 }
 
-.boardName,.boardsName{
+.boardName,.boardsName {
     margin-right: 30px;
-    text-shadow: 0px 1px  white,1px 0px  white,-1px 0px  white,0px -1px  white,0px 0px 3px  white;
+    text-shadow: 0 1px white, 1px 0 white, -1px 0 white, 0 -1px white, 0 0 3px white;
 }
 
 .handler {
@@ -27,25 +27,25 @@ body{
     cursor: pointer;
 }
 
-h3.stageTitle:hover{
+h3.stageTitle:hover {
     font-style: italic;
 }
 
-.stageHeader{
+.stageHeader {
     height: 36px;
 }
 
-.grabbed{
+.grabbed {
     -ms-transform: rotate(3deg); /* IE 9 */
     -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
     transform: rotate(3deg);
     /* 50% black box shadow */
--webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
--moz-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
 }
 
-.board{
+.board {
     opacity: 0.9;
 }
 
@@ -56,139 +56,139 @@ box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
-.cardTitle{
+.cardTitle {
     height: 25px;
 }
 
-.colorizerSwitch{
+.colorizerSwitch {
     height:22px;
-    font-size: 22;
+    font-size: 22px;
 }
 
-.colorizerSwitch.coral{
+.colorizerSwitch.coral {
     color: red;
 }
-.colorizerSwitch.yellow{
+.colorizerSwitch.yellow {
     color: yellow;
 }
-.colorizerSwitch.green{
+.colorizerSwitch.green {
     color: green;
 }
-.colorizerSwitch.grey{
+.colorizerSwitch.grey {
     color: grey;
 }
 
-.colorizer.coral{
+.colorizer.coral {
     color: red;
 }
-.colorizer.yellow{
+.colorizer.yellow {
     color: yellow;
 }
-.colorizer.green{
+.colorizer.green {
     color: green;
 }
-.colorizer.grey{
+.colorizer.grey {
     color: grey;
 }
-.cardContent{       
-  max-height: 200px;        
-  overflow: hidden;              /* "overflow" value must be different from "visible" */ 
-  text-overflow: ellipsis;  
+.cardContent {
+    max-height: 200px;
+    overflow: hidden; /* "overflow" value must be different from "visible" */
+    text-overflow: ellipsis;
 }
 
-body { 
-  background: url(../default.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body {
+    background: url(../default.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#cardFilter{
+#cardFilter {
     margin-right: 20px;
 }
 
-.card.selected div.panel{
-    border: solid 2px  #5cb85c;
--webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
--moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+.card.selected div.panel {
+    border: solid 2px #5cb85c;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-.hideStage{
-   /* -ms-transform: rotate(270deg); /* IE 9 */
-   /* -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-   /* transform: rotate(270deg);*/
+.hideStage {
+    /* -ms-transform: rotate(270deg); /* IE 9 */
+    /* -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    /* transform: rotate(270deg);*/
     transition: transform 0.8s;
     transform-origin: right top;
-    transform: translateX(-100%) rotate(-90deg) ;
+    transform: translateX(-100%) rotate(-90deg);
     z-index: 10000;
 }
 
-.hideStage .panel .panel-heading .stageTitle{  
+.hideStage .panel .panel-heading .stageTitle {
     font-weight: bold;
 }
 
-.showStage{
-   /* -ms-transform: rotate(270deg); /* IE 9 */
-   /* -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-   /* transform: rotate(270deg);*/
+.showStage {
+    /* -ms-transform: rotate(270deg); /* IE 9 */
+    /* -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    /* transform: rotate(270deg);*/
     transition: transform 0.6s;
     transform-origin: right top;
-    transform:  rotate(0deg)  ;
+    transform: rotate(0deg);
 }
 
 
-.nextToRotated{
-     margin-left: -250px; 
+.nextToRotated {
+    margin-left: -250px;
 }
 
 
-.hideStageButton{
+.hideStageButton {
     margin-right: 10px;
     cursor: pointer;
 }
 
 
-.hideStageButton:hover{
+.hideStageButton:hover {
     color: red;
 }
-.handler:hover{
+.handler:hover {
     color: red;
 }
 
 
 
 
-div.userInitiales{
+div.userInitiales {
     border: solid 1px black;
     float: left;
     width: 28px;
     height: 28px;
     margin-top: -6px;
     text-align: center;
-  padding-top: 4px;
+    padding-top: 4px;
     border-radius: 14px;
     background-color: white;
 }
-img.userInitiales{
+img.userInitiales {
     width: 28px;
     height: 28px;
     margin-top: -6px;
 }
 
-.panel-footer{
+.panel-footer {
     height: 38px;
 }
 
-.managerPicture{
+.managerPicture {
     margin-bottom: 6px;
 }
 
-div.tooltip{
+div.tooltip {
     z-index: 10000;
 }
 
-div.panel{
+div.panel {
     z-index: 0;
 }

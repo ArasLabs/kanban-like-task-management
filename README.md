@@ -74,4 +74,4 @@ Contributors:
 
 ## License
 
-Aras Labs projects are published to Github under the MIT license. See the [LICENSE file](./LICENSE.md) for license rights and limitations.
+Aras Labs projects are published to GitHub under the MIT license. See the [LICENSE file](./LICENSE.md) for license rights and limitations.
