@@ -240,13 +240,11 @@ function loadBoards() {
 			try {
 				fileUrl = inn.getFileUrl(vaultref.split("?fileId=")[1], 1);
 				vaultRefTable[vaultref] = fileUrl;
-				}
-			catch(err){
+			} catch(err) {
 				console.log("Profile Image for " + item.getPropertyAttribute("created_by_id", "keyed_name") + " is malformed. Please choose a different image.");
 				}
 			
-		}
-		else {
+		} else {
 			vaultRefTable[vaultref] = fileUrl;
 		}
 
@@ -464,16 +462,14 @@ function loadSingleBoard(boardId, reload) {
 		var vaultref = item.getProperty("managerpicture");
 		var fileUrl = "../kanban/nomanager.png";
 		if ((vaultref !== undefined) && (vaultRefTable[vaultref] == undefined)) {
-			try{
+			try {
 				fileUrl = inn.getFileUrl(vaultref.split("?fileId=")[1], 1);
 				vaultRefTable[vaultref] = fileUrl;
-				}
-			catch(err){
+			} catch (err) {
 				console.log("Profile Image for " + item.getPropertyAttribute("manager", "keyed_name") + " is malformed. Please choose a different image.");
 				}
 			
-		}
-		else {
+		} else {
 			vaultRefTable[vaultref] = fileUrl;
 		}
 
